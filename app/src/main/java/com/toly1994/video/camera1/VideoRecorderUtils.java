@@ -1,4 +1,4 @@
-package com.toly1994.video;
+package com.toly1994.video.camera1;
 
 import android.graphics.Point;
 import android.hardware.Camera;

@@ -1,4 +1,4 @@
-package com.toly1994.video;
+package com.toly1994.video.camera1;
 
 import android.content.res.ColorStateList;
 import android.graphics.ImageFormat;
@@ -12,6 +12,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.toly1994.video.R;
 import com.toly1994.video.app.io.FileHelper;
 import com.toly1994.video.app.permission.Permission;
 import com.toly1994.video.app.permission.PermissionActivity;

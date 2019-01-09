@@ -92,15 +92,23 @@ public class L {
      */
     public static void d(Object msg) {
         if (mDebuggable >= LEVEL_DEBUG) {
-            Log.d(getClassName(),getMsg(msg));
+            Log.d(getClassName(), getMsg(msg));
         }
     }
 
     /**
      * 以级别为 d 的形式输出LOG
      */
+    public static void dwh(Number width, Number height) {
+        d("width:" + width + "--height:" + height);
+    }
+
+
+    /**
+     * 以级别为 d 的形式输出LOG
+     */
     public static void d() {
-      d("=========================");
+        d("=========================");
     }
 
     /**

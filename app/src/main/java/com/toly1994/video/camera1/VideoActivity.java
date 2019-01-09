@@ -1,4 +1,4 @@
-package com.toly1994.video;
+package com.toly1994.video.camera1;
 
 import android.os.Bundle;
 import android.os.Environment;
@@ -7,6 +7,7 @@ import android.view.SurfaceView;
 import android.view.Window;
 import android.widget.ImageView;
 
+import com.toly1994.video.R;
 import com.toly1994.video.app.permission.Permission;
 import com.toly1994.video.app.permission.PermissionActivity;
 
